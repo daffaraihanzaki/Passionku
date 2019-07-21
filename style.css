@@ -1,0 +1,513 @@
+/* My CSS */
+.judul2{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 134.09%;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    font-variant: small-caps;
+    margin-top: 130px;
+    color: #C6C8C9;
+}
+
+.deskripsi2{
+    font-family: Montserrat;
+    font-size: 36px !important;
+    line-height: 140%;
+    font-weight: 600;
+    color: #41474C;
+}
+
+.judul{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 145%;
+
+    color: #41474C;
+}
+
+.deskripsi{
+
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 33px;
+
+    color: #8D9194;
+}
+
+.tombol{
+    background: #FB3E7A;
+    box-shadow: 0px 20px 65px rgba(251, 62, 122, 0.23);
+    border-radius: 3423px;
+    color: white;
+    padding: 16px 40px 16px 40px;
+    font-family: Nunito+Sans;
+}
+
+/* Navigasi */
+nav .navbar-brand{
+    font-family: Montserrat;
+    font-size: 18px;
+    color: #3C0597 !important;
+    font-weight: bold;
+}
+
+nav .nav-item{
+    font-size: 15px;
+    font-weight: 300;
+    color: #3C0597 !important;
+}
+
+nav .nav-item:nth-child(8){
+text-decoration: none;
+}
+
+nav .nav-item:nth-child(8),nav .nav-item:nth-child(7) {
+    font-weight: 600;
+}
+
+/* Jumbotron */
+.jumbotron{
+    background-color: white;
+    background-image: url(img/jumbotron-bg.png);
+    padding-top: 152px;
+    background-repeat: no-repeat;
+    height: 800px;
+
+}
+
+.jumbotron h1{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 130%;
+    color: white;
+}
+
+.jumbotron p{
+    color: #DDE0F6;
+    font-family: Nunito+Sans;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 200;
+    margin-bottom: 80px;
+    margin-top: 20px;
+}
+
+.jumbotron input{
+    height: 45px;
+    border-radius: 200px;
+    padding-left: 27px;
+    font-size: 15px;
+}
+
+.form-control::-webkit-input-placeholder{
+    color: #9B9B9B;    
+}
+
+.jumbotron .btn{
+    border-radius: 200px;
+    background-color: #FB3E7A;
+    color: white;
+    border: 0 solid white;
+    font-weight: 600;
+    font-family: Nunito+Sans;
+    padding: 0 30px 0 30px;
+    font-size: 15px;
+}
+
+
+.ilustrasi{
+    text-align: center;
+    margin-top: -200px;
+}
+
+.brands .gambar-brands .row:nth-child(2){
+    margin-top: -40px;
+    margin-bottom: 120px;
+}
+
+
+
+/* Brands */
+.brands .gambar-brands{
+    margin-top: 117px;
+}
+.brands .gambar-brands .row:nth-child(1){
+    margin-bottom: 120px;
+}
+
+/* Gabung */
+.gabung{
+    background: linear-gradient(239.53deg, #4726AC -16.74%, #5F80E6 100.2%);
+    border-radius: 47px;
+    margin-top: 200px;
+    padding-top: 44px;
+    border: 20px solid white;
+}
+
+.gabung .container .row .col:nth-child(2){
+    margin-top: 30px;
+}
+
+.gabung p{
+    font-weight: bold;
+    font-size: 40px !important;
+    line-height: 155%;
+    color: white;
+}
+.gabung .container{
+    text-align: center;
+}
+
+.gabung .container .row .tombol{
+    background-color: white;
+    color: #FB3E7A;
+    font-weight: 600;
+    padding: 18px 40px 18px 40px;
+}
+
+/* Fitur */
+.fitur .container{
+    text-align: center;
+}
+
+.fitur h3{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 134.09%;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    font-variant: small-caps;
+    margin-top: 200px;
+    margin-bottom: 10px;
+    color: #C6C8C9;
+}
+
+.fitur h2{
+    margin-bottom: 110px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 145%;
+    color: #41474C;
+}
+
+.fitur .konten2{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+/* Berita */
+.berita .card-body{
+    text-align: center;
+}
+
+.berita .card{
+    border: none;
+}
+
+.berita h5{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+}
+
+.berita p span{
+    color: #5A6DDA;
+}
+
+.berita .card-body p{
+    font-family: Nunito+Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 33px;
+    /* identical to box height, or 220% */
+
+    color: #7A7E82;
+}
+
+.berita .card-text{
+    font-family: Nunito+Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 33px;
+    /* or 183% */
+
+    color: #7A7E82;
+}
+
+.berita .card-body{
+    box-shadow: 0px 30px 100px rgba(0, 0, 0, 0.05);
+}
+
+.berita a{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 33px;
+    /* identical to box height, or 194% */
+
+    color: #FB3E7A;
+}
+
+/* Pagination */
+
+.pagination{
+    margin-top: 117px;
+    margin-bottom: 100px;
+}
+
+.next{
+    width: 62px;
+    height: 62px;
+    background-color: #FB3E7A;
+    border: none;
+    box-shadow: 0px 20px 60px rgba(251, 62, 122, 0.23);
+    padding-top: 11px;
+    padding-left: 14px;
+}
+
+.prev{
+    box-shadow: 0px 15px 60px rgba(0, 0, 0, 0.13);
+    border: none;
+    width: 62px;
+    height: 62px;
+    padding-top: 11px;
+    padding-left: 13px;
+}
+
+.halaman{
+    border: none;
+    background: none;
+    margin-top: 15px;
+}
+
+.halaman p{
+    color: #FB3E7A;
+    font-family: Nunito+Sans;
+    font-weight: 800;
+}
+
+.halaman p span{
+    color: #8D9194;
+}
+
+.next:hover{
+    background-color: rgb(206, 46, 97);
+}
+
+/* Testimoni */
+.testimoni{
+    background: linear-gradient(239.53deg, #4726AC -16.74%, #5F80E6 100.2%);
+    border-radius: 47px;
+    padding-top: 120px;
+    border: 20px solid white;
+}
+
+.testimoni p{
+    margin-bottom: 120px;
+}
+
+.testimoni .card{
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.05);
+    border: none;
+}
+
+.testimoni .card .card-text{
+    color: #E0DFF5;        
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 40px;
+    margin-bottom: 44px;
+    padding-top: 117px;
+}
+
+.testimoni .card .orang p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 27px;
+    color: #FFFFFF;    
+}
+
+.testimoni .card .orang p span{
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    /* identical to box height, or 222% */
+
+    color: #D1D1F0;    
+}
+
+.testimoni .testi2{
+    display: none;
+}
+
+/* ===================== */
+/* desktop version */
+
+@media (min-width: 992px) { 
+    nav{
+        padding-top: 20px !important;
+    }
+    nav .navbar-brand{
+        margin-top: -10px;
+        color: white !important;
+    }
+
+    nav .nav-item{
+        color: white !important;
+        margin-left: 15px;
+    }
+
+   .nav-link:hover::after{
+        content: ' ';
+        display: block;
+        border: 2px solid white;
+        width: 5%;
+        margin: auto;
+        border-radius: 100px;
+        margin-top: 5px;    
+        margin-bottom: -7px;
+    }
+
+    nav .nav-item:nth-child(7){
+        margin-left: 127px;
+    }
+    
+    nav .nav-item:nth-child(8){
+        border: 2px white solid;
+        padding: 8px 23px 10px 23px !important;
+        border-radius: 3000px;
+    }
+
+
+    /* Jumbotron */
+
+    .jumbotron{
+        margin-top: -72px;
+        text-align: center;
+        height: 1040px;
+
+    }
+
+    .jumbotron h1{
+        font-size: 65px;
+    }
+
+    .jumbotron p{
+        font-size: 19px;
+    }
+
+    .jumbotron input{
+        height: 70px;
+        font-size: 18px;
+    }
+
+    .jumbotron .btn{
+        font-size: 18px;
+        border-width: 3.7px;
+    }
+
+    .jumbotron img{
+        margin-top:120px;
+    }
+
+    /* ilustrasi */
+    .ilustrasi{
+        margin-top: -400px;
+    }
+
+    /* Brands */
+    .brands h3{
+        margin-top: 200px;
+        font-size: 18px;
+        line-height: 134.09%;
+        letter-spacing: 0.3em;
+    }
+
+    .brands p{
+        font-size: 38px !important;
+        line-height: 150%;  
+    }
+
+    /* Gabung */
+
+    .gabung{
+        border-radius: 47px;
+        margin-top: 200px;
+        padding-top: 100px;
+        padding-bottom: 96px;
+    }
+
+    .gabung p{
+        font-size: 45px !important;
+    }
+
+    .gabung .container .row p{
+        text-align: left;
+    }
+
+    .gabung .container .row .tombol{
+        box-shadow: none;
+    }
+
+    .gabung .container .row .col:nth-child(2){
+        margin-top: 50px;
+        text-align: right;
+    }
+
+    /* Fitur */
+    .fitur .container{
+        text-align: left;
+    }
+
+    .fitur .konten1{
+        margin-top: 100px;
+        margin-left: 70px;
+    }
+
+    .fitur .konten2{
+        margin-top: 100px;
+    }
+    
+    /* Berita */
+
+    .berita .card-body{
+        text-align: left;
+    }
+
+    .berita .card-body{
+        padding: 36px 0px 35px 38px;
+    
+    }
+
+    /* Testimoni */
+    .testimoni .testi2{
+        display: block;
+    }
+    
+
+}
+
